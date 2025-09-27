@@ -99,7 +99,7 @@ header-includes:
 
 ![Новый Репозиторий](CSlab1photo/GitRep.JPG){#fig:002 width=50%}
 
-![Клонирование Репозитория](CSlab1photo/repsave.JPG)
+![Новый Репозиторий](CSlab1photo/repsave.JPG)
 
 ## Проверка наличия Chocolate.
 
