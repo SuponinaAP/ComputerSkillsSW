@@ -99,7 +99,7 @@ header-includes:
 
 ![Новый Репозиторий](CSlab1photo/GitRep.JPG){#fig:002 width=50%}
 
-![Клонирование Репозитория](СSlab1photo/repsave.JPG)
+![Клонирование Репозитория](CSlab1photo/repsave.JPG)
 
 ## Проверка наличия Chocolate.
 
@@ -162,3 +162,6 @@ header-includes:
 
 ::: Пособие по лабораторным работам {https://esystem.rudn.ru/pluginfile.php/2862317/mod_folder/content/0/Practical-scientific-writing.pdf}
 
+
+
+[def]: СSlab1photo/repsave.JPG
