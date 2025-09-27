@@ -23,7 +23,7 @@ header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
-# Лабораторная работа 1
+# Лабораторная работа 2
 
 ## Цель работы
 
