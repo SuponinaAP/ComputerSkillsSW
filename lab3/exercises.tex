@@ -1,0 +1,45 @@
+% !Tex program = pdflatex
+\documentclass[a4paper, leqno]{article}
+ \usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc} % Включаем поддержку UTF8  
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{bm}
+\begin{document}
+Начнем с отображения текста в двух разных режимах.
+
+Внутри строки (inline) $y+2^{x+3x}$
+
+Между строк с выравниваем по центру (display)
+
+\[
+y+2^{x+3x}
+\]
+
+Введем несколько букв из греческого алфавита, вот строчные  $\phi, \alpha, \beta, \pi$ и вот они же заглавные $\Phi, \Gamma, \Psi$
+
+А теперь сравним разные шрифты:
+
+$\mathrm{Mama}$: roman(upright)
+
+$\mathit{Mama}$: italic spaced as ‘text’
+
+$\mathbf{Mama}$: boldface
+
+$\mathsf{Mama}$: sansserif
+
+$\mathtt{Mama}$: monospaced(typewriter)
+
+Попробум вложить их друг в друга:
+
+$\mathbf{\mathrm{Mama}}$
+
+$\mathsf{\mathbf{Mama}}$
+
+$\mathbf{\mathit{Mama}}$
+
+\begin{equation}
+ \int_{-\infty}^{+\infty} e^{-x^2} \, dx
+ \end{equation}
+
+\end{document}
