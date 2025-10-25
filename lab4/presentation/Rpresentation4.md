@@ -33,17 +33,17 @@ header-includes:
 
 Изображение обозначаем функцией **includegraphics**.
 
-![package](CSlab4photo/1.JPG){#fig:002 width=50%}
+![Вставка](CSlab4photo/1.JPG){#fig:002 width=50%}
 
 ## Увеличение ширины и высоты
 
-![package](CSlab4photo/2.JPG){#fig:003 width=50%}
+![Увеличение ширины и высоты](CSlab4photo/2.JPG){#fig:003 width=50%}
 
 \! Чтобы избежать искажения исходного изображения второй параметр будет подстраиваться программой автоматически.
 
 ## Поворот и масштабирование изображения
 
-![package](CSlab4photo/3.JPG){#fig:004 width=50%}
+![Поворот и масштабирование](CSlab4photo/3.JPG){#fig:004 width=50%}
 
 ## Обрезка изображения
 
@@ -51,7 +51,7 @@ header-includes:
 
 **trim** - задает границы
 
-![package](CSlab4photo/4.JPG){#fig:005 width=50%}
+![Обрезка](CSlab4photo/4.JPG){#fig:005 width=50%}
 
 ## Добавление изображения внутрь текста
 
@@ -65,19 +65,19 @@ header-includes:
 
 • **p** - на специальной странице, предназначенной только для поплавков
 
-![package](CSlab4photo/5.JPG){#fig:006 width=50%}
+![изображение в тексте 1](CSlab4photo/5.JPG){#fig:006 width=50%}
 
-![package](CSlab4photo/6.JPG){#fig:007 width=50%}
+![изображение в тексте 2](CSlab4photo/6.JPG){#fig:007 width=50%}
 
 ## Ссылки и гиперссылки
 
 Для того, чтобы создавать обычные ссылки в latex существует встроенная функция.
 
-![package](CSlab4photo/7.JPG){#fig:008 width=50%}
+![Ссылки](CSlab4photo/7.JPG){#fig:008 width=50%}
 
 Для гиперссылок нужен специальный пакет.
 
-![package](CSlab4photo/8.JPG){#fig:009 width=50%}
+![гиперссылки](CSlab4photo/8.JPG){#fig:009 width=50%}
 
 ## Выводы
 
