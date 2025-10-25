@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum} % produce dummy text as filler
+\usepackage{float}
+\usepackage{trivfloat}
+\usepackage[hidelinks]{hyperref}
+\trivfloat{image}
+\graphicspath{{report/CSLab4photo/}}
+\begin{document}
+This picture
+\begin{center}
+\includegraphics[height=2cm]{cat}
+\end{center}
+is an imported PDF.
+
+\begin{center}
+\includegraphics[height = 0.5\textheight]{cat}
+\end{center}
+
+Some text
+\begin{center}
+\includegraphics[width = 0.5\textwidth]{cat}
+\end{center}
+
+\begin{center}
+\includegraphics[width = 0.5\linewidth]{cat}
+\end{center}
+
+\begin{center}
+\includegraphics[angle=90, height=5cm]{cat}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.7]{cat}
+\end{center}
+
+\begin{center}
+\includegraphics[clip, trim = 50 50 210 100]{cat}
+\end{center}
+
+\lipsum[1-4] % Just a few filler paragraphs
+Test location.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{cat}
+\caption{An example image}
+\end{figure}
+\lipsum[6-10] % Just a few filler paragraphs
+
+\lipsum[1-7]
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{cat}
+\caption{An example image}
+\end{figure}
+\lipsum[8-15]
+
+\begin{image}
+\centering
+\includegraphics[width=0.5\textwidth]{cat}
+\caption{An example image}
+\end{image}
+
+Hey world!
+
+This is a first document.
+
+\section{Title of the first section}
+
+Text of material for the first section.
+
+\subsection{Subsection of the first section}
+\label{subsec:labelone}
+
+
+\begin{equation}
+e^{i\pi}+1 = 0
+\end{equation}
+
+Text of material for the first subsection.
+\begin{equation}
+e^{i\pi}+1 = 0
+\label{eq:labeltwo}
+\end{equation}
+
+In subsection~\ref{subsec:labelone} is equation~\ref{eq:labeltwo}.
+
+\section{Introduction}
+Some exciting text with a reference~\ref{sec:next}.
+
+\section{Next thing}
+\label{sec:next}
+
+More text here.
+\end{document}
