@@ -1,0 +1,74 @@
+<h1 id="лабораторная-работа-4">Лабораторная работа 4</h1>
+<h1 id="цель-работы">Цель работы</h1>
+<p>Изучить способы добавления списка литературы в LaTex.</p>
+<h1 id="задание">Задание</h1>
+<p>Изучить для возможных метода для добления списка литературы.</p>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной
+работы</h1>
+<h2 id="начало-работы-с-литературой">Начало работы с литературой</h2>
+<p>Для того, чтобы добавлять список литературы и ссылки на неё внутри
+документа необходимо создать файл с расширением bib, в котором оа будет
+записана для добавления</p>
+<figure>
+<img src="CSlab6photo/Bib.jpg" alt="Список источников" />
+<figcaption aria-hidden="true">Список источников</figcaption>
+</figure>
+<h2 id="natbib">natbib</h2>
+<p>Пакет natbib предлагает как текстовые, так и скобочные стили
+цитирования, \citet и \citep соответственно. Указания стиля записи и
+название файла, откуда берется информация о литературе, записывается в
+конце, при помощи bibliographystyle и bibliography соответвественно.</p>
+<p>Если нужно добавить дополнительную информацию она добавляется в
+квадратных скобках перед названием источника.</p>
+<p>При первой компиляции через LuaLaTex в документе будут вопросительные
+знаки, чтобы прочитать файл bib и скомпилировать необходимо запустить
+этот документ через BibTex, а потом снова ещё 2 раза через LuaLaTex и
+именно тогда вы увидите конечный результат, который представлен на
+изображении ниже.</p>
+<h2 id="результат-использования-natbib">Результат использования
+natbib</h2>
+<figure>
+<img src="Cslab6photo/natbib.JPG" alt="natbib" />
+<figcaption aria-hidden="true">natbib</figcaption>
+</figure>
+<h2 id="biblatex">biblatex</h2>
+<p>Пакет biblatex, также предназначен для работы с литературой. Cтиль и
+исходный документ записываются в начале и распространяются на весь
+документ. Стиль задается в квадратных скобках перед названием пакета, а
+документ обозначается при помощи addbibresource.</p>
+<p>Вариантов записи ссылок внутри текста <strong>parencite</strong>,
+<strong>textcite</strong> или <strong>citetitle</strong>.</p>
+<p>Для отдельной записи всего списка литературы, необходимо прописывать
+<strong>printbibliography</strong>.</p>
+<h2 id="результат-использования-biblatex">Результат использования
+biblatex</h2>
+<figure>
+<img src="Cslab6photo/biblatex.JPG" alt="biblatex" />
+<figcaption aria-hidden="true">biblatex</figcaption>
+</figure>
+<h2 id="сравнение-natbib-и-biblatex">Сравнение natbib и biblatex</h2>
+<table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 52%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><img src="Cslab6photo/natbib.JPG"
+style="width:45.0%" alt="natbib" /></th>
+<th style="text-align: center;"><img src="Cslab6photo/biblatex.JPG"
+style="width:45.0%" alt="biblatex" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>natbib</strong></td>
+<td style="text-align: center;"><strong>biblatex</strong></td>
+</tr>
+</tbody>
+</table>
+<h1 id="выводы">Выводы</h1>
+<p>В процессе выполнения данной лабораторной работы я научилась
+добавлять и редактировать список литературы в среде LaTex.</p>
+<h2 class="standout" id="section"></h2>
+<p>Спасибо за внимание!</p>

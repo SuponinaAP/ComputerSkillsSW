@@ -39,7 +39,7 @@ header-includes:
 
 Для того, чтобы добавлять список литературы и ссылки на неё внутри документа необходимо создать файл с расширением bib, в котором оа будет записана для добавления
 
-![Список источников](CSlab6photo/Bib.jpg)
+![Список источников](CSlab6photo/Bib.jpg){width=90%}
 
 ## natbib
 
@@ -52,7 +52,7 @@ header-includes:
 
 ## Результат использования natbib
 
-![natbib](Cslab6photo/natbib.JPG)
+![natbib](Cslab6photo/natbib.JPG){width=90%}
 
 ## biblatex
 
@@ -64,11 +64,11 @@ header-includes:
 
 ## Результат использования biblatex
 
-![biblatex](Cslab6photo/biblatex.JPG)
+![biblatex](Cslab6photo/biblatex.JPG){width=90%}
 
 ## Сравнение natbib и biblatex
 
-| ![natbib](Cslab6photo/natbib.JPG){width=45%} | ![biblatex](Cslab6photo/biblatex.JPG){width=45%} |
+| ![natbib](Cslab6photo/natbib.JPG){width=60%} | ![biblatex](Cslab6photo/biblatex.JPG){width=60%} |
 |:--------------------------------------------:|:------------------------------------------------:|
 | **natbib**                                   | **biblatex**                                     |
 
