@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: natbib.aux
+The style file: plainnat.bst
+Database file #1: learnlatex.bib
+Warning--entry type for "posobie" isn't style-file defined
+--line 33 of file learnlatex.bib
+You've used 3 entries,
+            2773 wiz_defined-function locations,
+            614 strings with 5388 characters,
+and the built_in function-call counts, 1301 in all, are:
+= -- 104
+> -- 79
+< -- 1
++ -- 27
+- -- 24
+* -- 106
+:= -- 208
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 57
+empty$ -- 109
+format.name$ -- 27
+if$ -- 265
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 39
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 33
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 0
+while$ -- 10
+width$ -- 0
+write$ -- 44
+(There was 1 warning)
