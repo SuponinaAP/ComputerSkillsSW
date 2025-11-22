@@ -14,6 +14,7 @@
 
 **Full Changelog**: https://github.com/SuponinaAP/ComputerSkillsSW/releases/tag/lab5
 
+# lab06
 
-
+**Full Changelog**: https://github.com/SuponinaAP/ComputerSkillsSW/releases/tag/lab6
 
