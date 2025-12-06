@@ -1,0 +1,42 @@
+\documentclass[xcolor={svgnames}]{beamer}
+\usetheme{Warsaw}
+\usecolortheme{beaver}
+\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter}
+\usepackage{lipsum}
+
+\title{Look I'm making a poster}
+\author{Ostap S. Bender}
+\institute{RUDN University}
+
+\begin{document}
+
+\begin{frame}
+\begin{columns}
+	\begin{column}{.33\textwidth}
+	\lipsum[1]
+	\end{column}
+	%
+	\begin{column}{.33\textwidth}
+	\lipsum[1]
+	\end{column}
+	%
+	\begin{column}{.33\textwidth}
+	\lipsum[1]
+	\end{column}
+\end{columns}
+%
+\begin{columns}
+	\begin{column}{.7\textwidth}
+	\lipsum[1]
+	\end{column}
+	%
+	\begin{column}{.3\textwidth}
+	\lipsum[1]
+	\end{column}
+\end{columns}
+
+Here follows some regular text, \color{BlueViolet} from now on the text has changed colour, \color{Black} and then we are back to normal.
+
+\end{frame}
+
+\end{document}

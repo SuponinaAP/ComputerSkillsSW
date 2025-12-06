@@ -1,0 +1,48 @@
+\documentclass[24pt, a0paper, portrait]{tikzposter}
+\usetheme{Copenhagen}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tikz}
+\title{Look I'm making a poster}
+\author{Ostap S. Bender}
+\institute{RUDN University}
+
+\begin{document}
+\maketitle
+
+\begin{columns}
+	\column{.33}
+	\block{title}{content}
+	%
+	\column{.33}
+	\block{title}{content \vspace{2cm}}
+	\note[targetoffsetx=1cm, targetoffsety=1cm, width=6cm]{note content}
+	%
+	\column{.33}
+	\block{title}{
+	\begin{center}
+	\includegraphics[]{instituteLogo.png}
+	\captionof{figure}{Insert your caption here}
+	\end{center}
+	%
+	\begin{center}
+	\definecolor{MyPink}{RGB}{194, 19, 182}
+	Here follows some regular text, \color{MyPink} from now on the text has changed colour, \color{black} and then we are back to normal.
+	\begin{tikzpicture}
+	...
+	\end{tikzpicture}
+	\captionof{figure}{...}
+	\end{center}
+	}
+\end{columns}
+%
+\begin{columns}
+	column{.7}
+	%
+	\column{.3}
+	...
+\end{columns}
+
+
+
+\end{document}
