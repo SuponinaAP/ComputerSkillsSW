@@ -31,7 +31,7 @@ header-includes:
 
 ## Компоненты to и controls
 
-![to and controls](CSlab8photo/3.jpg)
+![to and controls](CSlab8photo/3.jpg){width=70%}
 
 ## Подписи на иллюстрации
 
