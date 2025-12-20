@@ -21,3 +21,7 @@
 # lab07
 
 **Full Changelog**: https://github.com/SuponinaAP/ComputerSkillsSW/releases/tag/lab7
+
+# lab08
+
+**Full Changelog**: https://github.com/SuponinaAP/ComputerSkillsSW/releases/tag/lab8
